@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.IOException;
 
-@Controller
-@RequestMapping("/bgkb")
-public class BgkbController {
-    protected final Logger logger = LoggerFactory.getLogger(getClass());
+    @Controller
+    @RequestMapping("/bgkb")
+    public class BgkbController {
+        protected final Logger logger = LoggerFactory.getLogger(getClass());
 
     @RequestMapping(value="/api", method = RequestMethod.GET)
     @ResponseBody
